@@ -1,9 +1,8 @@
 trigger:
 - '*'
 
-pool: 'VM-agent'
-  name: 'VM-devops-agent'
-
+pool:
+  name: VM-agent
 
 variables:
   buildConfiguration: 'Release'
